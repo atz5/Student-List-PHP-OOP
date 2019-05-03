@@ -62,11 +62,13 @@ if (isset($_GET['submit'])) {
 		echo "</tr>";
 
 			}
+		
+		echo "</table>";
+		echo $output;
+
 	}
 }
   ?>
-</table>
-<?php  echo $output;?>
 
 
 
